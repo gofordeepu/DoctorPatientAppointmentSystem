@@ -1,0 +1,67 @@
+.loginSection h1 {
+  color: goldenrod;
+  text-align: center;
+  padding: 1em;
+}
+.loginForm {
+  /* background-color: rgb(247, 241, 206); */
+  background: linear-gradient(black, gold);
+  color: gold;
+  background: linear-gradient(
+    to right,
+    black 0%,
+    black 50%,
+    goldenrod 50%,
+    goldenrod 100%
+  );
+  width: max-content;
+  height: max-content;
+  margin-left: 35%;
+  padding: 5%;
+  overflow: hidden;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.child {
+  padding: 2%;
+  font-size: large;
+  font-style: italic;
+  font-weight: bolder;
+}
+.child input {
+  padding: 5px;
+  border-radius: 8px;
+}
+.child button {
+  background-color: goldenrod;
+  padding: 5%;
+  color: black;
+  font-weight: bolder;
+  border-radius:10px;
+  cursor: pointer;
+}
+.child button:hover {
+  background: linear-gradient(black, goldenrod);
+  color: yellow;
+}
+.child a{
+    font-style:normal;
+}
+
+.footerSection{
+    width: 100%;
+    background-color:#333;;
+    height: fit-content;
+    margin-top:4.1em;
+    position: fixed;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+   .loginForm{
+       margin-left: 20%;
+   }
+  }

@@ -1,0 +1,38 @@
+ .fields{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-weight: bolder;
+} 
+
+.fields label{
+   padding: 2em;
+   font-size: large;
+}
+.fields input{
+    width: 12em;
+    padding: 1em;
+    text-align: center;
+    border-radius: 1.5em;
+    background-color: aliceblue;
+}
+.fields button{
+    width: 10em;
+    padding: 1em;
+    text-align: center;
+    border-radius: 1.5em;
+    background-color:goldenrod;
+    font-weight: bolder;
+    font-size: normal;
+    color:black;
+    cursor: pointer;
+}
+.fields button:hover{
+    background-color: black;
+    color: goldenrod;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+}

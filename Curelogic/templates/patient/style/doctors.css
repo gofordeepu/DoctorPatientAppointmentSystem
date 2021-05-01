@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  h1,h2,h3 {
+    padding-bottom: 20px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+/* Navbar */
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+  }
+  
+  #navbar a {
+    color: #fff;
+  }
+  
+  #navbar h1 {
+    float: left;
+    padding-top: 20px;
+    padding-left: 100px;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+  
+  #navbar ul li {
+    float: left;
+    font-size: 20px;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #navbar ul li a:hover,
+  #navbar ul li a .current {
+    background: #444;
+    color: #f7c08a;
+  }
+
+  .coloring{
+    color:#D6CE15;
+}
+
+
+.wrap{
+    background: rgba(0,0,0, 0.6) url("/curelogic/img/newImage.jpg") no-repeat;
+            background-position: center;
+            background-size: cover;
+            min-height: 100vh;
+            overflow: hidden;
+            background-blend-mode: overlay;
+            
+}
+.decor{
+    text-align: center;
+    font-size: 20px;
+    color: darkcyan;
+    text-decoration: none;
+}
+
+
+
+
+
+.quote{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 170px;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.quote span{
+    color:cyan;
+}
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    background: rgb(8, 148, 148);
+    font-weight: bold;
+    cursor:pointer;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+}
+.footerSection{
+  color: goldenrod;
+  font-weight: bolder;
+  width: 100%;
+  background-color:#333;;
+  height: fit-content;
+  margin-top:12.5em;
+  position: fixed;
+  text-align:center;
+  padding: 1em;
+}
+
+
+
+ .patient-name{
+  color:whitesmoke;
+  float:right;
+  width: fit-content;
+  margin-right: 1em;
+  padding-top: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  background: linear-gradient(
+    to top,
+    goldenrod 0%,
+    goldenrod 10%,
+    black 35%,
+    black 100%
+  );
+  text-align: center;
+  border-radius: 2em;
+  border-style: dashed;
+  border-color: whitesmoke;
+}
+.options{
+  display: flex;
+  background: linear-gradient(
+    to top,
+    goldenrod 0%,
+    goldenrod 10%,
+    black 50%,
+    black 100%
+  );
+  width: 100%;
+  flex-direction: column;
+  margin-top:4%;
+  padding: 5em;
+
+}
+.options div{
+  color:goldenrod;
+  float:right;
+  margin: 1em;
+  width: 100%;
+  margin-right: 1em;
+  padding: 2em;
+  background: linear-gradient(
+    to top,
+    goldenrod 0%,
+    goldenrod 10%,
+    black 35%,
+    black 100%
+  );
+  text-align: center;
+  border-radius: 2em;
+  border-style: dashed;
+  border-color: whitesmoke;
+}
+
+table{
+   width: 100%;
+   font-size: larger;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerSection{
+    width: 100%;
+    background-color:#333;;
+    height: fit-content;
+    position: fixed;
+    text-align: center;
+    margin-top:6em;
+  }
+  .patient-name{
+    color:goldenrod;
+    float:right;
+    width: fit-content;
+    font-size: small;
+    padding-top: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background: linear-gradient(
+      to top,
+      goldenrod 0%,
+      goldenrod 10%,
+      black 35%,
+      black 100%
+    );
+    text-align: center;
+    border-radius: 2em;
+    border-style: dashed;
+    border-color: whitesmoke;
+  }
+  .options{
+    display: flex;
+    background: linear-gradient(
+      to top,
+      goldenrod 0%,
+      goldenrod 10%,
+      black 50%,
+      black 100%
+    );
+    width: 100%;
+    flex-direction: column;
+    margin-top:15%;
+    margin-left:0%;
+    padding: 5em;
+  
+  }
+  .options div{
+    color:goldenrod;
+    float:right;
+    width: 100%;
+    word-wrap: break-word;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background: linear-gradient(
+      to top,
+      goldenrod 0%,
+      goldenrod 10%,
+      black 35%,
+      black 100%
+    );
+    text-align: center;
+    border-radius: 2em;
+    border-style: dashed;
+    border-color: whitesmoke;
+  }
+  table{
+   table-layout: auto;
+   
+ }
+
+  
+ }
