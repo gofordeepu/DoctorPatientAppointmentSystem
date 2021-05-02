@@ -1,5 +1,5 @@
 =============================Introduction============================================
-  This is a simple doctor patient appointment system web has which is written in 
+  This is a simple doctor patient appointment system website which is written in 
   php.
 ========================Important ports and settings===================================
   according to my system i configure it on 8080 port so
